@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PasswordInput</title>
+        <style>
+            
+            label {
+            display: block;
+            margin-bottom: 10px;
+            }
+            div {
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+            <label class="font-label">Do you play any of the following instruments?</label>
+            <label class="font-label">(You can select more than one option by holding down control on a PC or command key on a Mac while
+                selecting different options.)</label>
+
+            <div>
+                <select id="instruments" name="instruments" multiple size="3" required>
+                    <option value="Guitar">Guitar</option>
+                    <option value="Drums">Drums</option>
+                    <option value="Keyboard">Keyboard</option>
+                    <option value="Bass">Bass</option>
+
+                </select>
+            </div>
+            <div><button type="submit">Submit</button> <button type="reset">Reset</button></div>
+        </form>
+    </body>
+</html>

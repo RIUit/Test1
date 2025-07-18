@@ -1,0 +1,26 @@
+.internal {
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-image: url("../img/web.png");
+}
+
+.email {
+    background-repeat: no-repeat;
+    background-image: url("img/email.png");
+    background-color: #f2f2f2;
+}
+
+.twitter {
+    background-repeat: no-repeat;
+    background-image: url("..//img/twitter.png");
+    background-color: #f2f2f2;
+}
+input[type="text"]:hover,
+input[type="text"]:focus {
+  background-color: #ffffff;
+  border-color: #b1e1e4;
+  outline: none;
+}
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Labelling Form Controls</title>
+        <style>
+            
+            div {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+            <label for="age">Age:</label>
+            <input type="age" name="age" id="age" required>
+            
+            <div>
+                <label for="ger">Gender:</label>  
+                <label>Female</label>
+                
+
+                <input type="radio" id="female" name="ger" value="female" required/>
+                <label>Male</label>
+                <input type="radio" id="male" name="ger" value="male" required/>
+            </div>
+            
+            <div><button type="submit">Submit</button> <button type="reset">Reset</button></div>
+
+        </form>
+    </body>
+</html>

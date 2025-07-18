@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title>Styling Fieldsets and Legends</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #665544;
+        }
+
+        fieldset{
+            border: 1px solid #9a1010;
+            border-radius: 10px;
+            text-align: left;
+            width: 350px;
+
+        }
+        legend{
+            padding: 10px 20px;
+            background-color: #efefef;
+            border: 1px solid #9a1010;
+            text-transform: uppercase;
+        }
+        input{
+            width: 280px;
+            border: none;
+            border-bottom: 1px solid #9a1010;
+            margin-bottom: 20px;
+        }
+
+        input#submit{
+            border: none;
+            color: #ffffff;
+            background-color: #665544;
+            border-radius: 10px;
+            width: 80px;
+        }
+        input#submit:hover{
+            color: #665544;
+            background-color: #150cc0;
+        }
+        input:focus{
+            border: 1px dotted #150cc0;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank">
+        <fieldset>
+            <legend>Newsletter</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+
+            <input type="submit" value="Submit" id="submit">
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>
